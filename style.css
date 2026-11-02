@@ -1,0 +1,27 @@
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 15px;           
+  margin-top: 40px;    
+  flex-wrap: wrap;     
+}
+
+button {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: deepskyblue;
+}
+
+h1 {
+  justify-content: center;
+}
