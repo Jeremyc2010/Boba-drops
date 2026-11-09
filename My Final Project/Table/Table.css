@@ -1,0 +1,41 @@
+.table-wrap {
+  overflow-x: auto;
+  border-radius: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  text-align: left;
+}
+
+caption {
+  padding: 12px;
+  color: #222;
+  font-weight: bold;
+  text-align: left;
+}
+
+th,
+td {
+  padding: 14px;
+  border: 1px solid #aaa;
+  line-height: 1.4;
+}
+
+thead th {
+  background-color: dodgerblue;
+  color: white;
+}
+
+tbody th {
+  background-color: #e7f2fc;
+}
+
+@media (max-width: 600px) {
+  th,
+  td {
+    padding: 10px;
+  }
+}

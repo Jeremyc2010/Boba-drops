@@ -1,0 +1,10 @@
+.page-content h2 {
+  margin-top: 0;
+  color: #1677c8;
+}
+
+.content-card p {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  text-align: left;
+}

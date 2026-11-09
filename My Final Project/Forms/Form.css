@@ -1,0 +1,40 @@
+.content-card {
+  max-width: 650px;
+}
+
+.form-note {
+  margin-top: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  border: 1px solid #777;
+  border-radius: 6px;
+  font: inherit;
+}
+
+textarea {
+  resize: vertical;
+}
+
+form button {
+  align-self: flex-start;
+  margin-top: 8px;
+}

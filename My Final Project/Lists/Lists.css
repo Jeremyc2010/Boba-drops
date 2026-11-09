@@ -1,0 +1,20 @@
+.list-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 18px;
+}
+
+.list-grid .content-card {
+  margin: 0;
+}
+
+.content-card h2 {
+  margin-top: 0;
+  color: #1677c8;
+}
+
+.content-card li {
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}

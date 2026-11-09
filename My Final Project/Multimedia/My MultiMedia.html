@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multimedia | Jeremy Cordero</title>
+  <link rel="stylesheet" href="../Home Page/Home.css">
+  <link rel="stylesheet" href="Multimedia.css">
+</head>
+<body>
+  <main class="page-content">
+    <h1>Multimedia</h1>
+    <p class="page-intro">HTML can show video and play audio right in a web page using built-in browser controls.</p>
+
+    <section class="content-card">
+      <h2>Video Example</h2>
+      <p>This sample video demonstrates the HTML video element and its playback controls.</p>
+      <video controls preload="metadata" poster="../Media/grad.jpg">
+        <source src="../Media/Hack Club Video.mp4" type="video/mp4">
+        Your browser does not support HTML video.
+      </video>
+    </section>
+
+    <section class="content-card">
+      <h2>Audio Example</h2>
+      <p>This sample sound demonstrates the HTML audio element and its playback controls.</p>
+      <audio controls preload="metadata">
+        <source src="../Media/Hack Club Video.mp3" type="audio/mpeg">
+        Your browser does not support HTML audio.
+      </audio>
+    </section>
+  </main>
+
+  <nav class="button-wrapper" aria-label="Main navigation">
+    <a href="../Home Page/Home Page.html">Home</a>
+    <a href="../About Page/About Page.html">About Me</a>
+    <a href="../Lists/My Lists.html">Lists</a>
+    <a href="../Table/My Table.html">Table</a>
+    <a href="../Forms/My form.html">Forms</a>
+    <a href="../Media/Media.html">Media</a>
+    <a href="My MultiMedia.html" aria-current="page">Multimedia</a>
+  </nav>
+</body>
+</html>

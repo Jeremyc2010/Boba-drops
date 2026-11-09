@@ -1,0 +1,22 @@
+.content-card h2 {
+  margin-top: 0;
+  color: #1677c8;
+}
+
+.content-card p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+video,
+audio {
+  display: block;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+video {
+  border-radius: 8px;
+}
